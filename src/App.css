@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.container__div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fafafa;
+    padding: 50px 10px;
+    border-radius: 40px 0px 0px 40px;
+}

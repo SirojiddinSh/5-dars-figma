@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 536px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a0a8b1;
+}
+
+.nav ul li {
+    width: 91px;
+    height: 37px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.nav ul li:hover {
+    color: white;
+    background-color: #fc8b40;
+}
+
+.orange {
+    width: 91px;
+    height: 37px;
+    border-radius: 16px;
+    background-color: #fc8b40;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav__bg-img {
+    width: 923px;
+    height: 300px;
+    border-radius: 14px;
+    background-image: url(../images/nav-div-bg-img.png);
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.Nav__bg-img__content {
+    width: 494px;
+    height: 172px;
+    border-radius: 8px;
+}
+
+.Nav__bg-img__content h2 {
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Nav__bg-img__content button {
+    width: 160px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #fc8b40;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Nav__bg-img__content a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.Nav__bg-img__content button:active {
+    transform: scale(0.95);
+    transition: all 0.1s;
+}
